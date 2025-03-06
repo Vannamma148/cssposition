@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin: auto;
+    width: 50vw;
+    gap: 40px;
+}
+.parent div{
+    height: 120px;
+    margin: 10px;
+    padding: 20px;
+}
+.visible{
+    
+    overflow: visible;
+    background-color: rgba(0, 0, 255, 0.39);
+    color: rgb(0, 0, 0);
+}
+.hidden{
+    overflow: hidden;
+    background-color: rgba(0, 255, 128, 0.39);
+}
+.scroll{
+    overflow: scroll;
+    background-color: rgba(255, 174, 0, 0.39);
+}
+.auto{
+    overflow: auto;
+    background-color: rgba(255, 0, 119, 0.39);
+}
+/* POSITION PROPERTIES*/
+.boxes{
+    height: 500px;
+    width: 900px;
+    border: 1px solid #ff00ff;
+}
+.boxes div{
+    width:80px;
+    height: 80px;
+    /* position: relative; */
+    margin: 12px;
+}
+
+.box2{
+    background-color: rgba(44, 80, 238, 0.8);
+}
+.box3{
+    background-color: rgba(255, 212, 22, 0.8);
+    position: fixed;
+    top:0px;
+}
+.box4{
+    background-color: rgba(23, 235, 206, 0.8);
+}
+

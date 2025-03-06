@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+   
+    font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+
+/* nav bar */
+.nav{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    /* margin: 20px 0; */
+    
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+
+.active{
+    background-color: #ffffff;
+    color: black;
+    padding: 4px 18px;
+    border-radius: 8px;
+}
+h1{
+    font-weight: 900;
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+ul{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:rgb(255, 255, 255)
+}
+h1, h2, h3, h4, h5, h6,p {
+    margin: 6px 0;
+}
+.logo{
+    color: #ffffff;
+    font-size: 1.4REM;
+}
+.navlist{
+    /* background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(3px); */
+    padding: 2rem;
+    border-radius: 202px;
+    width: 600px;
+}
+.box{
+    width: 80px;
+    text-align: center;
+    height: 80px;
+    /* background-color: rgb(72, 255, 0); */
+    position: fixed;
+    border-radius: 50%;
+    right: 0;
+    bottom: 150px;
+    margin: 0 20px;
+}
+.box img, .box2 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.box2{
+    width: 80px;
+    text-align: center;
+    height: 80px;
+    /* background-color: rgb(255, 8, 255); */
+    position: fixed;
+    margin: 0 20px;
+    right: 0;
+    bottom: 250px;
+}
+/* POSITIONING */
+.footer{
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0px;    
+    background-color: black;
+    color: aliceblue;
+}
+.box3{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}

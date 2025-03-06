@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in CSS</title>
+    <link rel="stylesheet" href="position.css">
+    <style>
+        .parent {
+            height: 500px;
+            width: 800px;
+            border: 1px solid black;
+            position: relative;
+            text-align: center;
+        }
+
+        .child {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            position: absolute;
+            left: 0%;
+
+        }
+
+        .child1 {
+            height: 200px;
+            width: 200px;
+            background-color: rgb(255, 0, 0);
+            position: absolute;
+            right: 0;
+            bottom: 0;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav">
+            <div class="logo">STICKY NAV</div>
+            <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="box">
+                <img src="../position/whatsapp.webp" alt="" srcset="">
+            </div>
+            <div class="box2">
+                <img src="../position/phone.png" alt="">
+            </div>
+            <h1>LEARNING POSITION PROPERTIES</h1>
+
+            <p>Position properties are fundamental concepts in various disciplines, such as physics, mathematics, and
+                computer science. They describe the location of an object in space or on a coordinate system.
+                Understanding the properties of position is essential for modeling motion, analyzing systems, and
+                solving real-world problems across different fields.</p>
+
+            <h2>What is Position?</h2>
+            <p>Position refers to the location of an object at a given time. In a physical context, position is often
+                represented by a vector, which is a quantity that includes both magnitude and direction. For example, in
+                a two-dimensional Cartesian coordinate system, an object's position might be described by a pair of
+                coordinates (x, y), indicating its location relative to an origin point. In three dimensions, a position
+                is represented by a triplet (x, y, z), adding depth to the spatial description.</p>
+
+            <h2>Properties of Position</h2>
+            <h3>1. Coordinate System</h3>
+            <p>The position of an object is typically described in terms of a coordinate system. The choice of
+                coordinate system depends on the problem being solved. In most common cases, Cartesian coordinates (x,
+                y, z) are used. However, in spherical coordinates, position is represented by radius, polar angle, and
+                azimuthal angle. The coordinate system provides a framework to interpret the object's position and
+                define distances, angles, and directions within the space.</p>
+
+            <h3>2. Reference Point</h3>
+            <p>The reference point, also known as the origin, is crucial in describing the position. For instance, in a
+                2D plane, the origin is usually at the point (0, 0). The position of any object is measured relative to
+                this point. Without a defined reference point, it would be impossible to assign a meaningful position to
+                an object.</p>
+
+            <h3>3. Displacement</h3>
+            <p>Displacement is a key property of position, referring to the change in position of an object from one
+                point to another. It is represented by a vector, indicating both the distance moved and the direction of
+                movement. Displacement differs from distance because it considers the shortest path between two points,
+                regardless of the actual route traveled. For example, if an object moves in a circular path and returns
+                to its starting point, the displacement is zero, even though the distance traveled is not.</p>
+
+            <h3>4. Position and Motion</h3>
+            <p>The position of an object is intrinsically tied to its motion. As time progresses, an object changes its
+                position. This relationship is often described using kinematic equations, which link the position,
+                velocity, and acceleration of an object. The motion of an object is a dynamic process that is heavily
+                influenced by forces and can be modeled using Newtonian mechanics or more advanced theories like
+                relativity, depending on the scale of the problem.</p>
+
+            <h3>5. Velocity and Speed</h3>
+            <p>Position and velocity are related. Velocity is the rate of change of position with respect to time, and
+                it is a vector quantity that includes both magnitude and direction. Speed, on the other hand, is the
+                magnitude of velocity and indicates how fast an object is moving, without regard to the direction.
+                Understanding velocity helps predict future positions of moving objects and is fundamental in fields
+                such as navigation, robotics, and physics.</p>
+
+            <h3>6. Position in Computing and Graphics</h3>
+            <p>In the field of computer science, especially in graphics, position is used to describe the location of
+                pixels or objects in a virtual space. For example, in 3D graphics rendering, position properties are
+                used to define where an object is placed in the three-dimensional virtual world. This is crucial for
+                animation, simulation, and game development.</p>
+
+            <h3>7. Relative vs. Absolute Position</h3>
+            <p>There are two main ways to describe an object's position: relative and absolute. Absolute position refers
+                to a fixed point in a global reference frame, such as a position on Earth's surface defined by latitude
+                and longitude. In contrast, relative position describes the location of an object in relation to another
+                object or reference point. Relative positioning is often used in navigation, robotics, and when
+                describing the motion of objects within a system.</p>
+
+            <h2>Conclusion</h2>
+            <p>Position properties play a central role in understanding the world around us, from the motion of planets
+                to the behavior of objects in everyday life. These properties allow us to model systems, track movement,
+                and solve problems in a wide range of scientific and engineering fields. Whether in physics,
+                mathematics, or computer graphics, position provides the foundation for understanding how objects relate
+                to space and time.</p>
+
+        </div>
+    </main>
+
+
+    <div class="parent">
+        PARENT RELATIVE
+        <div class="child">
+            ABSOLUTE
+        </div>
+        <div class="child1">
+            ABSOLUTE
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>COPYRIGHT 2025 ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+</body>
+
+</html>
